@@ -14,6 +14,9 @@
 		22C7F6DE1D3929C90038EB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F6DC1D3929C90038EB6A /* LaunchScreen.storyboard */; };
 		22C7F6E91D3929C90038EB6A /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F6E81D3929C90038EB6A /* TicTacToeTests.swift */; };
 		22C7F6F41D3929CA0038EB6A /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F6F31D3929CA0038EB6A /* TicTacToeUITests.swift */; };
+		22C7F7031D392B0E0038EB6A /* oh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F7011D392B0E0038EB6A /* oh.jpg */; };
+		22C7F7041D392B0E0038EB6A /* ex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F7021D392B0E0038EB6A /* ex.jpg */; };
+		22C7F7061D3930810038EB6A /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F7051D3930810038EB6A /* white.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		22C7F6EF1D3929CA0038EB6A /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C7F6F31D3929CA0038EB6A /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		22C7F6F51D3929CA0038EB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C7F7011D392B0E0038EB6A /* oh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oh.jpg; sourceTree = "<group>"; };
+		22C7F7021D392B0E0038EB6A /* ex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ex.jpg; sourceTree = "<group>"; };
+		22C7F7051D3930810038EB6A /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				22C7F6D31D3929C90038EB6A /* AppDelegate.swift */,
 				22C7F6D51D3929C90038EB6A /* ViewController.swift */,
 				22C7F6D71D3929C90038EB6A /* Main.storyboard */,
+				22C7F7051D3930810038EB6A /* white.jpg */,
+				22C7F7011D392B0E0038EB6A /* oh.jpg */,
+				22C7F7021D392B0E0038EB6A /* ex.jpg */,
 				22C7F6DA1D3929C90038EB6A /* Assets.xcassets */,
 				22C7F6DC1D3929C90038EB6A /* LaunchScreen.storyboard */,
 				22C7F6DF1D3929C90038EB6A /* Info.plist */,
@@ -229,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C7F7041D392B0E0038EB6A /* ex.jpg in Resources */,
+				22C7F7031D392B0E0038EB6A /* oh.jpg in Resources */,
 				22C7F6DE1D3929C90038EB6A /* LaunchScreen.storyboard in Resources */,
 				22C7F6DB1D3929C90038EB6A /* Assets.xcassets in Resources */,
 				22C7F6D91D3929C90038EB6A /* Main.storyboard in Resources */,
+				22C7F7061D3930810038EB6A /* white.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

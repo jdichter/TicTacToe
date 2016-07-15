@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicTacToe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="igR-OK-U1J">
+                                <rect key="frame" x="61" y="206" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P82-bi-Thf">
+                                <rect key="frame" x="162" y="206" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FSv-Yk-Dar">
+                                <rect key="frame" x="263" y="206" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TBb-6f-Lfv">
+                                <rect key="frame" x="162" y="113" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TnS-Wp-Ve3">
+                                <rect key="frame" x="263" y="112" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vDb-8X-NEG">
+                                <rect key="frame" x="61" y="299" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dzm-Yi-dyq">
+                                <rect key="frame" x="162" y="299" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QNC-Oy-pdc">
+                                <rect key="frame" x="263" y="299" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kJX-bk-Yde">
+                                <rect key="frame" x="61" y="112" width="85" height="85"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="square11" destination="kJX-bk-Yde" id="lQl-ec-Wlj"/>
+                        <outlet property="square12" destination="TBb-6f-Lfv" id="9JG-qH-m8L"/>
+                        <outlet property="square13" destination="TnS-Wp-Ve3" id="b0e-lg-5gl"/>
+                        <outlet property="square21" destination="igR-OK-U1J" id="joS-rd-Ozo"/>
+                        <outlet property="square22" destination="P82-bi-Thf" id="v82-zy-vEN"/>
+                        <outlet property="square23" destination="FSv-Yk-Dar" id="QMf-mm-gWS"/>
+                        <outlet property="square31" destination="vDb-8X-NEG" id="TyF-VO-kLz"/>
+                        <outlet property="square32" destination="dzm-Yi-dyq" id="4zt-Ck-L3n"/>
+                        <outlet property="square33" destination="QNC-Oy-pdc" id="vhO-P1-s4l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="oh.jpg" width="350" height="345"/>
+        <image name="white.jpg" width="300" height="300"/>
+    </resources>
 </document>
